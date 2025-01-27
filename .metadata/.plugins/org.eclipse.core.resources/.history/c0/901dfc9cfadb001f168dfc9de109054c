@@ -1,0 +1,19 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+import testComponents.Baseclass;
+import locators.IH_AB_Testing_Loc;
+
+public class IH_AB_Testing_module extends Baseclass {
+	
+	public void ABTesting_Navigation()
+	{
+		driver.findElement(By.xpath(IH_AB_Testing_Loc.AB_Testing_Link)).clear();
+		driver.findElement(By.xpath(""));
+		
+		
+	}
+	
+
+}

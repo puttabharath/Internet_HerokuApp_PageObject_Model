@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testComponents.Listeners"/>
+    <listener class-name="testComponents.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="C:/InternetHerokuapp/InternetHerokuapp/src/test/java/test(failed)">
+    <classes>
+      <class name="test.IH_AB_Testing_Test">
+        <methods>
+          <include name="testSkip"/>
+          <include name="testFailure"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- test.IH_AB_Testing_Test -->
+    </classes>
+  </test> <!-- C:/InternetHerokuapp/InternetHerokuapp/src/test/java/test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

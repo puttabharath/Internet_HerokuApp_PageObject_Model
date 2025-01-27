@@ -1,0 +1,5 @@
+package locators;
+
+public class IH_Basic_Auth_Loc {
+
+}

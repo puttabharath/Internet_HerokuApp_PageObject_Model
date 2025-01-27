@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testComponents.Listeners"/>
+        <listener class-name="testComponents.RetryListener"/>
+    </listeners>
+
+    <test thread-count="5" verbose="2" preserve-order="true" name="C:/InternetHerokuapp/InternetHerokuapp/src/test/java/test">
+        <classes>
+            <class name="test.IH_AB_Testing_Test">
+               
+                </class>
+        </classes>
+    </test>
+</suite>

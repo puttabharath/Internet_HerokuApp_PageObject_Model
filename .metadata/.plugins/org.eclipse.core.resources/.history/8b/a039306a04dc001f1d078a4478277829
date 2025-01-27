@@ -1,0 +1,14 @@
+package test;
+
+import org.testng.annotations.Test;
+import pages.IH_AB_Testing_module;
+public class IH_AB_Testing_Test {
+
+@Test
+public void ABTesting_Test() {
+
+    IH_AB_Testing_module Abt = new IH_AB_Testing_module();
+    Abt.ABTesting_Navigation();
+
+}
+}

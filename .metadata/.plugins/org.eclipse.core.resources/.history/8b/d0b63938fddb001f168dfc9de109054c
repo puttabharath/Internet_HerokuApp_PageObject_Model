@@ -1,0 +1,12 @@
+package locators;
+
+import testComponents.Baseclass;
+
+public class IH_AB_Testing_Loc extends Baseclass{
+	
+public static String AB_testLink = "//a[text()='A/B Testing']";
+
+	
+	
+
+}

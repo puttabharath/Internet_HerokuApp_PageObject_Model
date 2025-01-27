@@ -1,0 +1,26 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.Reporter;
+
+import testComponents.Baseclass;
+import locators.IH_AB_Testing_Loc;
+
+public class IH_AB_Testing_module extends Baseclass {
+	
+	public void ABTesting_Navigation()
+	{
+		driver.findElement(By.xpath(IH_AB_Testing_Loc.AB_testLink)).clear();
+	 WebElement TestVarationTexts = driver.findElement(By.xpath(IH_AB_Testing_Loc.TestVaritiontext));
+		System.out.println(TestVarationTexts);
+		Assert.assertEquals(TestVarationTexts,IH_AB_Testing_Loc.Expected_TestVarition_Test);
+		
+		 WebElement TestVarationParagraph = driver.findElement(By.xpath(IH_AB_Testing_Loc.TestVariation_Paragraph));
+			System.out.println(TestVarationParagraph);
+
+	}
+	
+
+}
